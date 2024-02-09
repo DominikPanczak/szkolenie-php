@@ -1,4 +1,11 @@
 {
-    "name": "root/html",
-    "require": {}
+    "name": "dominik.panczak/src",
+    "autoload": {
+        "psr-4": {
+            "DominikPanczak\\Src\\": "src/"
+        }
+    },
+    "require": {
+        "irestful/hashmaps": "*"
+    }
 }

@@ -4,6 +4,15 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/src" isTestSource="false" packagePrefix="DominikPanczak\Src\" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/unittesthelpers" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/booleans" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/hashmaps" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/integers" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/jsons" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/numericprimitives" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/primitives" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/irestful/strings" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

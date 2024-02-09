@@ -1,0 +1,395 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7c4e385e03ecf898e8cdb84a556b9861",
+    "packages": [
+        {
+            "name": "irestful/booleans",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Booleans.git",
+                "reference": "c9d0407b6eabdd9126d92dd99493cb789cc71636"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Booleans/zipball/c9d0407b6eabdd9126d92dd99493cb789cc71636",
+                "reference": "c9d0407b6eabdd9126d92dd99493cb789cc71636",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Booleans": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Booleans",
+            "support": {
+                "issues": "https://github.com/irestful/Booleans/issues",
+                "source": "https://github.com/irestful/Booleans/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T17:28:47+00:00"
+        },
+        {
+            "name": "irestful/hashmaps",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/HashMaps.git",
+                "reference": "12ff1d778db2bbcb1b07a90b0d0278a8ddf67e0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/HashMaps/zipball/12ff1d778db2bbcb1b07a90b0d0278a8ddf67e0a",
+                "reference": "12ff1d778db2bbcb1b07a90b0d0278a8ddf67e0a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/jsons": "13.11.28",
+                "irestful/strings": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HashMaps": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/HashMaps",
+            "support": {
+                "issues": "https://github.com/irestful/HashMaps/issues",
+                "source": "https://github.com/irestful/HashMaps/tree/master"
+            },
+            "abandoned": true,
+            "time": "2015-01-05T20:12:10+00:00"
+        },
+        {
+            "name": "irestful/integers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Integers.git",
+                "reference": "2673f6669a6318aa22384ab8d0cc6cce7063584c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Integers/zipball/2673f6669a6318aa22384ab8d0cc6cce7063584c",
+                "reference": "2673f6669a6318aa22384ab8d0cc6cce7063584c",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/numericprimitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Integers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "description": "Integer type interfaces",
+            "homepage": "https://github.com/irestful/Integers",
+            "keywords": [
+                "integers"
+            ],
+            "support": {
+                "issues": "https://github.com/irestful/Integers/issues",
+                "source": "https://github.com/irestful/Integers/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T20:05:39+00:00"
+        },
+        {
+            "name": "irestful/jsons",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Jsons.git",
+                "reference": "4843abf33354add1b14d408acc731fb00a3308ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Jsons/zipball/4843abf33354add1b14d408acc731fb00a3308ef",
+                "reference": "4843abf33354add1b14d408acc731fb00a3308ef",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jsons": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Jsons",
+            "support": {
+                "issues": "https://github.com/irestful/Jsons/issues",
+                "source": "https://github.com/irestful/Jsons/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T15:35:00+00:00"
+        },
+        {
+            "name": "irestful/numericprimitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/NumericPrimitives.git",
+                "reference": "bdf44304c95ab3df503021fb2a39f53a879cf26a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/NumericPrimitives/zipball/bdf44304c95ab3df503021fb2a39f53a879cf26a",
+                "reference": "bdf44304c95ab3df503021fb2a39f53a879cf26a",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "NumericPrimitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/NumericPrimitives",
+            "support": {
+                "issues": "https://github.com/irestful/NumericPrimitives/issues",
+                "source": "https://github.com/irestful/NumericPrimitives/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T17:34:15+00:00"
+        },
+        {
+            "name": "irestful/primitives",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Primitives.git",
+                "reference": "92c88bde48570a7e59535b39a665eab07ae786ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Primitives/zipball/92c88bde48570a7e59535b39a665eab07ae786ef",
+                "reference": "92c88bde48570a7e59535b39a665eab07ae786ef",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Primitives": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/Primitives",
+            "support": {
+                "issues": "https://github.com/irestful/Primitives/issues",
+                "source": "https://github.com/irestful/Primitives/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T17:25:19+00:00"
+        },
+        {
+            "name": "irestful/strings",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/Strings.git",
+                "reference": "2d1bb44f63db45ba954e6a2c3532fa101c151ab1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/Strings/zipball/2d1bb44f63db45ba954e6a2c3532fa101c151ab1",
+                "reference": "2d1bb44f63db45ba954e6a2c3532fa101c151ab1",
+                "shasum": ""
+            },
+            "require": {
+                "irestful/booleans": "13.11.28",
+                "irestful/integers": "13.11.28",
+                "irestful/primitives": "13.11.28",
+                "irestful/unittesthelpers": "13.11.28",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Strings": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "description": "String type interfaces",
+            "homepage": "https://github.com/irestful/Strings",
+            "keywords": [
+                "strings"
+            ],
+            "support": {
+                "issues": "https://github.com/irestful/Strings/issues",
+                "source": "https://github.com/irestful/Strings/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T15:54:48+00:00"
+        },
+        {
+            "name": "irestful/unittesthelpers",
+            "version": "13.11.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irestful/UnitTestHelpers.git",
+                "reference": "305d4878f3c9a0b6e988f52ac541af1e480ecb8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irestful/UnitTestHelpers/zipball/305d4878f3c9a0b6e988f52ac541af1e480ecb8e",
+                "reference": "305d4878f3c9a0b6e988f52ac541af1e480ecb8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UnitTestHelpers": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Rodrigue",
+                    "email": "steve@irestful.com"
+                }
+            ],
+            "homepage": "https://github.com/irestful/UnitTestHelpers",
+            "support": {
+                "issues": "https://github.com/irestful/UnitTestHelpers/issues",
+                "source": "https://github.com/irestful/UnitTestHelpers/tree/master"
+            },
+            "abandoned": true,
+            "time": "2014-03-22T21:56:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

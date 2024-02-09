@@ -1,0 +1,84 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9fc76111746edb0dd9fa1fdaa0bc1b9a",
+    "packages": [
+        {
+            "name": "psx/record",
+            "version": "v3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/apioo/psx-record.git",
+                "reference": "855739833897fbd787ac2870f272a6a98119a138"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/apioo/psx-record/zipball/855739833897fbd787ac2870f272a6a98119a138",
+                "reference": "855739833897fbd787ac2870f272a6a98119a138",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0",
+                "vimeo/psalm": "^4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PSX\\Record\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Kappestein",
+                    "email": "christoph.kappestein@gmail.com",
+                    "homepage": "https://chrisk.app"
+                }
+            ],
+            "description": "Data HashMap implementation",
+            "homepage": "https://phpsx.org",
+            "keywords": [
+                "data",
+                "hashmap",
+                "record"
+            ],
+            "support": {
+                "issues": "https://github.com/apioo/psx-record/issues",
+                "source": "https://github.com/apioo/psx-record/tree/v3.0.5"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/fusioapi",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/chriskapp",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/fusio",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2023-05-28T21:20:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
